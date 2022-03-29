@@ -16,6 +16,10 @@ body {
   height: 100vh;
 }
 
+.carousel-control-next, .carousel-control-prev {
+  width: 6%;
+}
+
 .btn-custom {
   color:white;
   border-radius: 500px;
