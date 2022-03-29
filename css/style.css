@@ -1,0 +1,109 @@
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url(../img/capa.png), url(../img/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
+  background-attachment: fixed;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.bg-dark-traparent {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#home {
+  height: 100vh;
+}
+
+.btn-custom {
+  color:white;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+  padding: 10px 15px;
+}
+
+.btn-custom-purple {
+  background-color: #7c25f8;
+}
+
+.btn-custom-purple:hover {
+  background-color: #6207e3;
+  color: white;
+}
+
+.btn-custom-white {
+  border: 2px solid white;
+}
+
+.btn-custom-white:hover {
+  background-color: white;
+  color: black;
+}
+
+#servicos h2, #servicos h3 {
+  color: #7c25f8;
+}
+
+#recursos h3 {
+  color: #9bf0e1;
+}
+
+.rotate-box {
+  transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+}
+
+footer {
+  background-color: #000;
+}
+
+footer h4 {
+  font-size: 0.8em;
+}
+
+/* xs */
+@media (max-width: 575.98px) {
+  .section-title {
+    font-size: 3em;
+  }
+  .btn-custom {
+    margin-bottom: 20px;
+    font-size: 0.9em;
+  }
+}
+
+/* sm */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .section-title {
+    font-size: 3em;
+  }
+  .btn-custom {
+    font-size: 0.9em;
+  }
+}
+
+/* md */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .section-title {
+    font-size: 4em;
+  }
+}
+
+/* lg */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .section-title {
+    font-size: 5em;
+  } 
+}
+
+/* xl */
+@media (min-width: 1200px) {
+  .section-title {
+    font-size: 6em;
+  }
+}
