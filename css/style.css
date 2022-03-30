@@ -20,6 +20,14 @@ body {
   width: 6%;
 }
 
+.slide-height {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .btn-custom {
   color:white;
   border-radius: 500px;
