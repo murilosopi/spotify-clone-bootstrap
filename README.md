@@ -1,5 +1,5 @@
 # Página Inicial do Spotify
-> Em desenvolvimento ⚠
+> Concluido ✔️
 
 Exercício proposto para criação de um layout clone da página inicial do Spotify.
 
